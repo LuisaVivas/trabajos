@@ -1,0 +1,769 @@
+    1  python3
+    2  exit
+    3  cd Escritorio/
+    4  tar zxvf jdk-8u45-linux-x64.tar.gz 
+    5  cd
+    6  exit
+    7  su 
+    8  which wget
+    9  wget -qO- https://get.docker.com/ | sh
+   10  docker run hello-world
+   11  uname -r
+   12  docker run hello-world
+   13  docker
+   14  docker run hello-world
+   15  service docker status
+   16  service docker start
+   17  which docker
+   18  sudo /usr/bin/docker daemon
+   19  $ sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+   20  cd /etc/apt/sources.list.d/
+   21  ls
+   22  vi docker.list 
+   23  apt-get update
+   24  cd /
+   25  cd ..
+   26  sudo apt-get update
+   27  $ apt-get purge lxc-docker
+   28  apt-get purge lxc-docker
+   29  sudo apt-get purge lxc-docker
+   30  apt-cache policy docker-engine
+   31  sudo apt-get install linux-image-extra-$(uname -r)
+   32  sudo apt-get install docker-engine
+   33  sudo service docker start
+   34  sudo docker run hello-world
+   35  sudo usermod -aG docker distribuidos
+   36  sudo docker run hello-world
+   37  docker run hello-world
+   38  cd Isos/
+   39  md5sum CentOS-6.4-i386-minimal.iso 
+   40  md5sum CentOS-6.4-i386-minimalV2.iso 
+   41  md5sum CentOS-6.4-i386-minimal.iso 
+   42  ip a
+   43  ip -a
+   44  ifconfig 
+   45  ping 192.168.56.101
+   46  ping 192.168.56.102
+   47  clear
+   48  ssh roor@192.168.56.101
+   49  ssh roor@192.168.56.102
+   50  ssh root@192.168.56.101
+   51  exit
+   52  ssh 192.168.56.102
+   53  ssh root@192.168.56.102
+   54  poweroff 
+   55  exit
+   56  ssh root@192.168.56.101
+   57  ssh root@192.168.131.52
+   58  ssh root@192.168.56.102
+   59  gcc
+   60  cd/tmp
+   61  cd /tmp
+   62  vi ejecutar.sh
+   63  cd /tmp
+   64  vi ejecutar.sh
+   65  ls -la
+   66  sh ejecutar.sh
+   67  cd 
+   68  ssh 192.168.56.53
+   69  ssh root@192.168.56.53
+   70  ssh root@192.168.56.103
+   71  ping 192.168.131.254
+   72  sudo ifconfig eth1:1 192.168.131.208
+   73  ip a
+   74  ping 192.168.131.254
+   75  ssh root@192.168.56.103
+   76  ssh root@192.168.131.53
+   77  ssh root@192.168.56.103
+   78  ssh root@192.168.56.101
+   79  ssh root@192.168.56.105
+   80  history
+   81  ping 192.168.131.254
+   82  ssh root@192.168.56.104
+   83  ssh root@192.168.56.103
+   84  ssh root@192.168.56.105
+   85  ssh root@192.168.56.104
+   86  ssh root@192.168.56.105
+   87  ssh root@192.168.56.103
+   88  sudo poweroff
+   89  ssh root@192.168.56.105
+   90  ssh root@192.168.56.103
+   91  ssh root@192.168.56.104
+   92  ssh root@192.168.56.103
+   93  sudo poweroff
+   94  ssh root@192.168.56.105
+   95  ssh root@192.168.56.104
+   96  ssh root@192.168.56.103
+   97  ssh root@192.168.56.104
+   98  ssh root@192.168.56.103
+   99  poweroff
+  100  sudo poweroff
+  101  ssh root@192.168.56.105
+  102  clear
+  103  ssh root@192.168.56.105
+  104  ls
+  105  cd Escritorio/
+  106  ls
+  107  help ssh
+  108  man ssh
+  109  man scop
+  110  man scp
+  111  clear
+  112  scp authorized_keys 192.168.131.53:/root/.ssh
+  113  clear
+  114  scp /home/distribuidos/Escritorio/authorized_keys 192.168.131.53:/root/.ssh
+  115  clear
+  116  ssh root@192.168.56.104
+  117  ssh root@192.168.56.105
+  118  ssh root@192.168.56.103
+  119  clear
+  120  scp '/home/distribuidos/pgdg-centos94-9.4-1.noarch.rpm' root@192.168.56.103:/root/pgdg-centos94-9.4-1.noarch.rpm
+  121  ssh root@192.168.56.103
+  122  ssh root@192.168.56.105
+  123  scp '/home/distribuidos/pgdg-centos94-9.4-1.noarch.rpm' root@192.168.56.105:/root/pgdg-centos94-9.4-1.noarch.rpm
+  124  yum install pgdg-centos94-9.4-1.noarch.rpm 
+  125  ssh root@192.168.56.105
+  126  scp '/home/distribuidos/pgdg-centos94-9.4-1.noarch.rpm' root@192.168.56.104:/root/pgdg-centos94-9.4-1.noarch.rpm
+  127  ssh root@192.168.56.104
+  128  ssh root@192.168.56.105
+  129  sudo poweroff
+  130  ssh root@192.168.56.103
+  131  ssh root@192.168.56.105
+  132  ssh root@192.168.56.105
+  133  clear
+  134  ssh root@192.168.56.104
+  135  sudo poweroff
+  136  cd Documentos/
+  137  md5sum CentOS-7-x86_64-Minimal-1511.iso 
+  138  ssh root@192.168.131.55
+  139  ssh root@192.168.56.105
+  140  exit
+  141  ssh root@192.168.56.103
+  142  exit
+  143  ssh root@192.168.56.104
+  144  exit
+  145  ssh root@192.168.56.105
+  146  exit
+  147  127.0.0.1:2222
+  148  ssh 127.0.0.1:2222
+  149  ssh vagrant@127.0.0.1:2222
+  150  cd Documentos/taller\ 2/ejercicio\ 1/
+  151  ls
+  152  clear
+  153  PS1="\u# "
+  154  vagrant box -h
+  155  vagrant box add -h
+  156  vagrant box add centos64 /home/distribuidos/Documentos/boxes/CentOS-6.4-i386-v20130731.box 
+  157  vagrant box list
+  158  vagrant init
+  159  cat Vagrantfile 
+  160  vim Vagrantfile 
+  161  vi Vagrantfile 
+  162  vagrant up
+  163  vagrant ssh
+  164  vagrant destroy -h
+  165  vagrant destroy -f
+  166  gedit Vagrantfile 
+  167  cd ..
+  168  ls
+  169  cd ejercicio\ 1.1/
+  170  ls
+  171  vagrant init
+  172  vagrant up
+  173  vagrant ssh
+  174  vagrant package --output centos64Updated.box
+  175  poweroff
+  176  sudo poweroff
+  177  cd /bin/
+  178  ls
+  179  cc
+  180  cd /home/
+  181  cd /home/distribuidos/
+  182  cd /home/distribuidos/descargas
+  183  cd /home/distribuidos/Descargas
+  184  ls
+  185  dir
+  186  ls -l
+  187  cd operating-systems-master/
+  188  ls
+  189  cd system_calls/
+  190  cat syscl_01.c
+  191  ls
+  192  cat syscl_01.c
+  193  }
+  194  PS1=">"
+  195  PS1="=\u"
+  196  cat syscl_01.c
+  197  cat syscl_04.c
+  198  cat syscl_07.c
+  199  nano syscl_01.c
+  200  nano syscl_01.c test.py
+  201  nano lu
+  202  ls
+  203  cc syscl_01.c -o syscl_01.o
+  204  ls
+  205  ./syscl_01.o 
+  206  PS1="\u >"
+  207  cat compilar_ejecutar.sh 
+  208  chmod +x compilar_ejecutar.sh 
+  209  ./compilar_ejecutar.sh 
+  210  ./compilar_ejecutar.sh syscl_01
+  211  ./compilar_ejecutar.sh syscl_02
+  212  nano syscl_02.c
+  213  ./compilar_ejecutar.sh syscl_02
+  214  ./compilar_ejecutar.sh syscl_02 &
+  215  ps -e
+  216  -e | grep compilar
+  217  ps -e | grep compilar
+  218  ps -e |grep syscl_02
+  219  ls -l
+  220  kill 4318
+  221  ps -e |grep syscl_02
+  222  ls -l
+  223  kill 8669
+  224  ps -e |grep syscl_02
+  225  ps -e | grep syscl_02
+  226  ./compilar_ejecutar.sh syscl_02 &
+  227  ps -e | grep syscl_02
+  228  jobs
+  229  fg
+  230  kill 4352
+  231  ./compilar_ejecutar.sh 
+  232  ./compilar_ejecutar.sh syscl_03 &
+  233  nano syscl_03
+  234  nano syscl_03.c
+  235  ./compilar_ejecutar.sh  syscl_03 &
+  236  ./compilar_ejecutar.sh syscl_04 &
+  237  ./compilar_ejecutar.sh syscl_04
+  238  ./compilar_ejecutar.sh syscl_05
+  239  ./compilar_ejecutar.sh  syscl_06 &
+  240  ./compilar_ejecutar.sh syscl_07
+  241  ./compilar_ejecutar.sh syscl_08
+  242  ./compilar_ejecutar.sh syscl_09
+  243  ./compilar_ejecutar.sh syscl_10
+  244  ./compilar_ejecutar.sh syscl_11
+  245  ./compilar_ejecutar.sh syscl_07
+  246  ./compilar_ejecutar.sh syscl_6
+  247  ./compilar_ejecutar.sh syscl_06
+  248  ssh rootssh root@192.168.56.105
+  249  ssh root@192.168.56.104
+  250  ssh root@192.168.56.105
+  251  ssh root@192.168.56.103
+  252  ssh root@192.168.56.105
+  253  sudo poweroff
+  254  vagrant box list
+  255  vagrant box add help
+  256  vagrant box add -h
+  257  vagrant box add -centos64_update /home/distribuidos/Documentos/taller\ 2/ejercicio\ 1.1/centos64Updated.box 
+  258  vagrant box add centos64_update /home/distribuidos/Documentos/taller\ 2/ejercicio\ 1.1/centos64Updated.box 
+  259  vagrant box list
+  260  cd Documentos/taller\ 2/ejercicio3/cookbooks/
+  261  mkdir -p seguridad/{files/default,recipes,templates}
+  262  ls
+  263  tree
+  264  find . -type d | sed -e "s/[^-][^\/]*\//  |/g" -e "s/|\([^ ]\)/|-\1/"
+  265  cd seguridad/recipes/
+  266  clear
+  267  cd ..
+  268  cd ....
+  269  cd ../../
+  270  cd ejercicio3/
+  271  ls
+  272  vagrant -h
+  273  vagrant up
+  274  ifconfig 
+  275  vagrant -h
+  276  vagrant destroy
+  277  vagrant ssh
+  278  vagrant box add centos64_updated /home/distribuidos/Escritorio/vmboxejercicio2.box 
+  279  vagrant up
+  280  vagrant ssh
+  281  vagrant up
+  282  vagrant destroy
+  283  vagrant up
+  284  vagrant ssh
+  285  vagrant destroy
+  286  vagrant up
+  287  ssh root@192.168.56.105
+  288  ssh root@192.168.56.103
+  289  sudo scp root@192.168.56.101:/etc/yum.repos.d/CentOS-Base.repo
+  290  sudo scp root@192.168.56.101:/etc/yum.repos.d/CentOS-Base.repo ./
+  291  ls
+  292  cd ./
+  293  ls
+  294  sudo chown distribuidos '/home/distribuidos/Documentos/taller 2/ejercicio4/cookbooks/seguridad/files/CentOS-Base.repo' 
+  295  ls
+  296  vi Documentos/taller\ 2/ejercicio4/cookbooks/seguridad/files/CentOS-Base.repo 
+  297  clear
+  298  vagrant box add centos64_updated4 /home/distribuidos/Documentos/boxes/centos64_updated4.box 
+  299  cd Documentos/taller\ 2/
+  300  ls
+  301  ce ejercicio 4
+  302  cd ejercicio 4
+  303  cd ejercicio4
+  304  vagrant up
+  305  vagrant ssh
+  306  sudo poweroff 
+  307  gcc
+  308  sudo apt -get install build-essential linux-headers -$(uname -r)
+  309  sudo apt-get install  build-essential linux-headers -$(uname -r)
+  310  sudo apt-get install build-essential linux-headers -$(uname -r)
+  311  sudo apt-get install build-essential linux-headers-$(uname -r)
+  312  yum install gcc gcc-c++ make op
+  313  cd Escritorio/
+  314  mkdir ejemplos_modulos
+  315  cd ejemplos_modulos/
+  316  mkdir hello_modulo
+  317  PS1='Lois'
+  318  cd hello_modulo/
+  319  ls
+  320  nano hello.c
+  321  nano MakeFile
+  322  nano Makefile
+  323  nano hello.c
+  324  make 
+  325  ls
+  326  insmod hello.ko
+  327  sudo su
+  328  make 
+  329  sudo apt-get install build-essential linux-headers -$(uname -r)
+  330  sudo apt-get install build-essential linux-headers-$(uname -r)
+  331  yum install gcc gcc-c++ make op
+  332  cd Escritorio/
+  333  mkdir ejemplos_modulos
+  334  PS1='Lois'
+  335  insmod hello.ko
+  336  mkdir hello_modulo
+  337  cd ejemplos_modulos/
+  338  nano hello.c
+  339  ifconfig 
+  340  sudo apt-get instal openssh
+  341  sudo apt-get install openssh
+  342  sudo apt-get install openssh-server 
+  343  exit
+  344  vagrant -h
+  345  vagrant box -h
+  346  vagrant box list
+  347  cd Documentos/taller\ 2/Ejercicio6/
+  348  ls
+  349  vagrant up
+  350  vagrant -h
+  351  vagrant destroy
+  352  vagrant up
+  353  vagrant destroy
+  354  vagrant up
+  355  cd /var/chef/cache
+  356  cd /var/chef/cache/
+  357  vagrant destroy
+  358  vagrant up
+  359  vagrant destroy
+  360  vagrant up
+  361  vagrant destroy
+  362  vagrant up
+  363  vagrant destroy
+  364  vagrant up
+  365  ps -aux | grep compiz
+  366  ps -e
+  367  ps -aux | grep 3570
+  368  nano procesos.c
+  369  ls
+  370  gcc procesos.c -pthread -o procesos.c 
+  371  gcc procesos.c -pthread -o procesos
+  372  l
+  373  cat procesos.c 
+  374  nano procesos.c 
+  375  nano HiloProceso.c
+  376  ls
+  377  cat HiloProceso.c 
+  378  gcc HiloProceso.c -pthread -o HiloProceso
+  379  ./HiloProceso 
+  380  rm -r procesos.c 
+  381  ls
+  382  python
+  383  nmap
+  384  sudo apt-get install nmap
+  385  groovy
+  386  vi '/home/distribuidos/Documentos/taller 2/Ejercicio7Actividad postgis/cookbooks/mirror/templates/default/CentOS-Base.repo.erb' 
+  387  vagrant -h
+  388  vagrant box list
+  389  clear
+  390  vagrant -h
+  391  cd Documentos/taller\ 2/Ejercicio7Actividad\ postgis/
+  392  vagrant up
+  393  vagrant ssh
+  394  vagrant destroy
+  395  vagrant up
+  396  vagrant ssh
+  397  vagrant destroy
+  398  vagrant up
+  399  vagrant ssh
+  400  vagrant destroy
+  401  vagrant up
+  402  vagrant ssh
+  403  md5sum '/home/distribuidos/Documentos/boxes/CentOS-7-x86_64-Minimal-1511.iso' 
+  404  cd Documentos/taller\ 2/Ejercicio7Actividad\ postgis/
+  405  ls
+  406  vagrant up
+  407  vagrant ssh
+  408  exit
+  409  vagrant package -h+
+  410  vagrant package --base centos7
+  411  cd Documentos/boxes/
+  412  vagrant package --base centos7 --output Centos7_base
+  413  vagrant box list
+  414  vagrant box -h
+  415  vagrant box add -h
+  416  vagrant box add -
+  417  vagrant box add '/home/distribuidos/Documentos/boxes/Centos7_base' 
+  418  vagrant box add --name '/home/distribuidos/Documentos/boxes/Centos7_base' 
+  419  vagrant box add Centos7_base
+  420  vagrant box add Centos7_base --name Centos7_base
+  421  vagrant box list
+  422  cd ../taller\ 2/Ejercicio7Actividad\ postgis/
+  423  vagrant up
+  424  vagrant ssh
+  425  cd Documentos/taller\ 2/Ejercicio7Actividad\ postgis/
+  426  vagrant up
+  427  cd ../../boxes/
+  428  clear
+  429  vagrant package --base centos7 --output Centos7_base
+  430  rm Centos7_base 
+  431  ls
+  432  vagrant package --base centos7 --output Centos7_base.box
+  433  cd ../taller\ 2/Ejercicio7Actividad\ postgis/
+  434  vagrant up
+  435  clear
+  436  ssh root@192.168.56.101
+  437  poweroff
+  438  cd Documentos/taller\ 2/Ejercicio7Actividad\ postgis/
+  439  vagrant up
+  440  vagrant status
+  441  vagrant up
+  442  vagrant box destroy
+  443  vagrant box remove
+  444  vagrant box remove centos_postgis
+  445  vagrant box list
+  446  vagrant box remove Centos7_base
+  447  cd ../../boxes/
+  448  clear
+  449  vagrant package --base centos7 --output Centos7_base.box
+  450  vagrant -h
+  451  vagrant destroy
+  452  vagrant -h
+  453  vagrant destroy
+  454  vagrant global-status
+  455  vagrant destroy 1e15c07
+  456  vagrant destroy ac99879
+  457  vagrant destroy 928f2e2
+  458  vagrant global-status
+  459  vagrant destroy c01b2f1
+  460  vagrant destroy 533d0ac
+  461  vagrant destroy 5581d77
+  462  vagrant global-status
+  463  clear
+  464  vagrant global-status
+  465  clear
+  466  vagrant package --base centos7 --output Centos7_base.box
+  467  vagrant box list
+  468  vagrant box add Centos7_base Centos7_base
+  469  vagrant box add Centos7_base.box Centos7_base
+  470  vagrant box add Centos7_base Centos7_base.box
+  471  vagrant box list
+  472  cd ../taller\ 2/Ejercicio7Actividad\ postgis/
+  473  vagrant up
+  474  vagrant destroy
+  475  clear
+  476  ssh root 192.168.56.101
+  477  ssh root@192.168.56.101
+  478  ssh root@10.0.2.15
+  479  ssh-keygen -f "/home/distribuidos/.ssh/known_hosts" -R 192.168.56.101
+  480  ssh root@10.0.2.15
+  481  ssh root@192.168.56.101
+  482  cd Documentos/boxes/
+  483  vagrant package --base centos7 --output Centos7_base.box
+  484  vagrant box list
+  485  vagrant box remobe Centos7_base
+  486  vagrant box add Centos7_base Centos7_base.box
+  487  cd ../taller\ 2/Ejercicio7Actividad\ postgis/
+  488  vagrant up
+  489  vagrant destroy
+  490  vagrant box remove Centos7_base
+  491  clear
+  492  vagrant package --base centos7 --output Centos7_base.box
+  493  vagrant box remove Centos7_base
+  494  vagrant box add Centos7_base Centos7_base.box
+  495  vagrant up
+  496  vagrant destroy
+  497  clear
+  498  vagrant box remove Centos7_base
+  499  vagrant package --base centos7 --output Centos7_base.box
+  500  vagrant box add Centos7_base Centos7_base.box
+  501  vagrant up
+  502  vagrant ssh
+  503  cd /escrITORIO
+  504  cd..
+  505  cd:
+  506  sudo 
+  507  cd..
+  508  ls
+  509  cd /Escritorio
+  510  cd Escritorio/
+  511  sudo apt-get install python-pip
+  512  ls
+  513  history 
+  514  docker pull ubuntu:14.04
+  515  pip install virtualenv
+  516  sudo pip install virtualenv
+  517  cd  ~/NetBeansProjects/
+  518  ls
+  519  cd ProblemaBodega/
+  520  ls
+  521  git init
+  522  git add .
+  523  git status
+  524  git commit -m "add sources"
+  525  git config --global user.email "you@example.com"
+  526  git config --global user.email "luisamaria556@gmail.com"
+  527  git config --global user.name "Luisa"
+  528  git commit -m "add sources"
+  529  git remote add origin https://github.com/LuisaVivas/ejemplo_hilos_bodega.git
+  530  git push -u origin master
+  531  cd ~/Escritorio/
+  532  ls
+  533  mkdir operativos
+  534  cd operativos/
+  535  git clone https://github.com/LuisaVivas/ejemplo_hilos_bodega.git
+  536  ls
+  537  cd ejemplo_hilos_bodega/
+  538  ls
+  539  nano README
+  540  git add .
+  541  git commit -m "add readme"
+  542  git push -u origin master
+  543  history
+  544  history 
+  545  history > ~/Escritorio/listadocomandos20160307
+  546  git push -u origin master 
+  547  git commit -m "add sources"
+  548  ls
+  549  cd..
+  550  cd 
+  551  ls
+  552  cd Documentos/
+  553  ls
+  554  cd ProcesoHilos
+  555  cd..
+  556  ls
+  557  cd
+  558  cd ~
+  559  cd Escritorio/
+  560  ls
+  561  cd operativos/
+  562  git clone https://github.com/LuisaVivas/ejemplo_hilos_bodega.git
+  563  git add
+  564  end
+  565  cd~
+  566  cd..
+  567  cd ~operativos/
+  568  cd..
+  569  cd
+  570  git add
+  571  cd ~/NetBeansProjects/
+  572  ls
+  573  cd ProblemaBodega/
+  574  ls
+  575  init
+  576  git nit
+  577  git init
+  578  git add
+  579  git add .
+  580  git commit -m "add sources"
+  581  git remote add origin https://github.com/LuisaVivas/ejemplo_hilos_bodega.git
+  582  git push -u origin master 
+  583  git add.
+  584  git add .
+  585  git commit -m "add sources"
+  586  git push origin master 
+  587  cd 
+  588  ls
+  589  cd Escritorio/
+  590  ls
+  591  cd operativos/
+  592  ls
+  593  cd ejemplo_hilos_bodega/
+  594  ls
+  595  git status
+  596  cd Escritorio/operativos/
+  597  ls -l
+  598  cd ejemplo_hilos_bodega/
+  599  ls -l
+  600  ls -al
+  601  git status
+  602  git add *
+  603  git status
+  604  git checkout README
+  605  git status
+  606  git commit -m "add sources"
+  607  git push
+  608  history 
+  609  > ~/Escritorio/listadocomandos20160307 
+  610  > ~/Escritorio/listadocomandos201603072 
+  611  ls
+  612  cd '/home/distribuidos/Documentos/taller 2/Ejercicio8Actividad postgis/' 
+  613  vagrant up
+  614  vagrant ssh
+  615  vagrant destroy
+  616  vagrant up
+  617  vagrant ssh
+  618  vagrant destroy
+  619  vagrant up
+  620  vagrant ssh
+  621  sudo poweroff
+  622  vagrant destroy
+  623  vagrant global-status
+  624  vagrant destroy 3fa2eaf
+  625  cd '/home/distribuidos/Documentos/taller 2/Ejercicio8Actividad postgis/' 
+  626  ls
+  627  vagrant up
+  628  vagrant ssh
+  629  docker pull ubuntu:14.04
+  630  docker pull centos
+  631  vagrant -h
+  632  vagrant halt
+  633  vagrant destroy
+  634  vagrant global-status
+  635  vagrant destroy cd4eedd
+  636  sudo poweroff
+  637  cd'/home/distribuidos/Documentos/taller 2/Ejercicio8Actividad postgis/cookbooks/postgis/files/default/libpng-1.2.49-2.el6_7.i686.rpm' 
+  638  cd '/home/distribuidos/Documentos/taller 2/Ejercicio8Actividad postgis/cookbooks/postgis/files/default/libpng-1.2.49-2.el6_7.i686.rpm' 
+  639  clear
+  640  cd '/home/distribuidos/Documentos/taller 2/Ejercicio8Actividad postgis/cookbooks/postgis/files/default/' 
+  641  clear
+  642  ls
+  643  exit
+  644  '/home/distribuidos/Documentos/taller 2/Ejercicio8Actividad postgis/' 
+  645  cd '/home/distribuidos/Documentos/taller 2/Ejercicio8Actividad postgis/' 
+  646  clear
+  647  vagrant up
+  648  vagrant ssh
+  649  vagrant destroy
+  650  clear
+  651  vagrant up
+  652  vagrant destroy
+  653  vagrant up
+  654  vagrant destroy
+  655  vagrant up
+  656  vagrant ssh
+  657  vagrant destroy
+  658  vagrant up
+  659  vagrant ssh
+  660  vagrant destroy
+  661  vagrant up
+  662  vagrant ssh
+  663  vagrant destroy
+  664  vagrant up
+  665  vagrant ssh
+  666  vagrant destroy
+  667  vagrant up
+  668  vagrant ssh
+  669  vagrant destroy
+  670  vagrant up
+  671  vagrant destroy
+  672  vagrant up
+  673  vagrant ssh
+  674  vagrant destroy
+  675  vagrant up
+  676  vagrant ssh
+  677  vagrant destroy
+  678  vagrant up
+  679  vagrant destroy
+  680  vagrant up
+  681  vagrant destroy
+  682  vagrant up
+  683  vagrant ssh
+  684  vagrant destroy
+  685  vagrant up
+  686  vagrant ssh
+  687  clear
+  688  vagrant destroy
+  689  vagrant up
+  690  vagrant ssh
+  691  vagrant destroy
+  692  vagrant up
+  693  vagrant destroy
+  694  vagrant up
+  695  vagrant ssh
+  696  vagrant destroy
+  697  vagrant up
+  698  vagrant destroy
+  699  vagrant up
+  700  vagrant destroy
+  701  vagrant up
+  702  psql
+  703  vagrant
+  704  vagrant ssh
+  705  vagrant destroy
+  706  vagrant up
+  707  vagrant destroy
+  708  vagrant up
+  709  vagrant ssh
+  710  vagrant destroy
+  711  vagrant up
+  712  vagrant destroy
+  713  vagrant up
+  714  vagrant destroy
+  715  vagrant up
+  716  vagrant ssh
+  717  vagrant destroy
+  718  vagrant up
+  719  vagrant ssh
+  720  vagrant destroy
+  721  vagrant up
+  722  clear
+  723  vagrant destroy
+  724  vagrant up
+  725  vagrant destroy
+  726  vagrant up
+  727  vagrant ssh
+  728  vagrant destroy
+  729  exit
+  730  cd '/home/distribuidos/Documentos/taller 2/Ejercicio8Actividad postgis/' 
+  731  clear
+  732  vagrant up
+  733  vagrant ssh
+  734  vagrant destroy
+  735  vagrant up
+  736  vagrant ssh
+  737  vagrant destroy
+  738  vagrant up
+  739  vagrant ssh
+  740  vagrant destroy
+  741  vagrant up
+  742  vagrant ssh
+  743  vagrant destroy
+  744  vagrant up
+  745  vagrant ssh
+  746  vagrant destroy
+  747  vagrant up
+  748  vagrant ssh
+  749  vagrant destroy
+  750  cd '/home/distribuidos/Documentos/taller 2/Ejercicio8Actividad postgis/cookbooks/postgis/files/default/temp/' 
+  751  ls
+  752  cd Escritorio/
+  753  sudo pip install swampy
+  754  sudo apt-get install python-tk
+  755  python
+  756  ls
+  757  rm Escritorio\ viejo\ Q\ desorden\ hombe/
+  758  rm -r Escritorio\ viejo\ Q\ desorden\ hombe/
+  759  ls
+  760  sudo apt-get install python-tk
+  761  unrar
+  762  git 
+  763  git clone https://github.com/d4n13lbc/prueba_operativos.git
+  764  ls
+  765  history
+  766  listaComando
+  767  ~Escritorio/lista
+  768  >listado
+  769  history >listado
